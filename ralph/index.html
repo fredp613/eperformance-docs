@@ -63,67 +63,65 @@
     <a class="current" href="./">Ralph</a>
     <ul class="subnav">
             
-    <li class="toctree-l2"><a href="#intake-portal">Intake Portal</a></li>
+    <li class="toctree-l2"><a href="#welcome-to-stackedit">Welcome to StackEdit!</a></li>
+    
+
+    <li class="toctree-l2"><a href="#files">Files</a></li>
     
         <ul>
         
-            <li><a class="toctree-l3" href="#registration-and-login">Registration and Login</a></li>
+            <li><a class="toctree-l3" href="#create-files-and-folders">Create files and folders</a></li>
         
-            <li><a class="toctree-l3" href="#client-profile">Client Profile</a></li>
+            <li><a class="toctree-l3" href="#switch-to-another-file">Switch to another file</a></li>
         
-            <li><a class="toctree-l3" href="#service-amendments">Service Amendments</a></li>
+            <li><a class="toctree-l3" href="#rename-a-file">Rename a file</a></li>
+        
+            <li><a class="toctree-l3" href="#delete-a-file">Delete a file</a></li>
+        
+            <li><a class="toctree-l3" href="#export-a-file">Export a file</a></li>
         
         </ul>
     
 
-    <li class="toctree-l2"><a href="#tenant-manager">Tenant Manager</a></li>
+    <li class="toctree-l2"><a href="#synchronization">Synchronization</a></li>
     
         <ul>
         
-            <li><a class="toctree-l3" href="#multiple-tenants">Multiple Tenants</a></li>
+            <li><a class="toctree-l3" href="#open-a-file">Open a file</a></li>
         
-            <li><a class="toctree-l3" href="#adaptor">Adaptor</a></li>
+            <li><a class="toctree-l3" href="#save-a-file">Save a file</a></li>
         
-            <li><a class="toctree-l3" href="#customizing-intake-portal">Customizing Intake Portal</a></li>
+            <li><a class="toctree-l3" href="#synchronize-a-file">Synchronize a file</a></li>
         
-            <li><a class="toctree-l3" href="#saas">SaaS</a></li>
+            <li><a class="toctree-l3" href="#manage-file-synchronization">Manage file synchronization</a></li>
         
         </ul>
     
 
-    <li class="toctree-l2"><a href="#form-manager">Form Manager</a></li>
+    <li class="toctree-l2"><a href="#publication">Publication</a></li>
     
         <ul>
         
-            <li><a class="toctree-l3" href="#orbeon-overview">Orbeon Overview</a></li>
+            <li><a class="toctree-l3" href="#publish-a-file">Publish a File</a></li>
         
-            <li><a class="toctree-l3" href="#create-edit-configure-and-activate-forms">Create, Edit, Configure, and Activate Forms</a></li>
+            <li><a class="toctree-l3" href="#update-a-publication">Update a publication</a></li>
         
-            <li><a class="toctree-l3" href="#form-controls">Form Controls</a></li>
-        
-            <li><a class="toctree-l3" href="#data-mapping-and-sync-to-crm">Data Mapping and Sync to CRM</a></li>
-        
-            <li><a class="toctree-l3" href="#auto-numbering">Auto-numbering</a></li>
-        
-            <li><a class="toctree-l3" href="#translation-management">Translation Management</a></li>
-        
-            <li><a class="toctree-l3" href="#user-management">User Management</a></li>
+            <li><a class="toctree-l3" href="#manage-file-publication">Manage file publication</a></li>
         
         </ul>
     
 
-    <li class="toctree-l2"><a href="#reviewer-manager">Reviewer Manager</a></li>
+    <li class="toctree-l2"><a href="#markdown-extensions">Markdown extensions</a></li>
     
         <ul>
         
-            <li><a class="toctree-l3" href="#registration">Registration</a></li>
+            <li><a class="toctree-l3" href="#smartypants">SmartyPants</a></li>
         
-            <li><a class="toctree-l3" href="#profile">Profile</a></li>
+            <li><a class="toctree-l3" href="#katex">KaTeX</a></li>
+        
+            <li><a class="toctree-l3" href="#uml-diagrams">UML diagrams</a></li>
         
         </ul>
-    
-
-    <li class="toctree-l2"><a href="#troubleshooting">Troubleshooting</a></li>
     
 
     </ul>
@@ -161,91 +159,127 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="intake-portal">Intake Portal</h1>
-<p>The Intake Portal offers a streamlined area for the submission of applications. Users are initially brought to the landing page, where they are able to begin the submission process.</p>
-<h2 id="registration-and-login">Registration and Login</h2>
-<p>Once a user has navigated to the landing page for the Intake+ portal, there is an option for them to sign in if they have previously registered or register as a new user. If previously registered, users will be able to enter their login information to access available forms and profile information. </p>
-<p>If the user needs to register, they must complete the required registration information. This includes: first name, last name, email address, password, and password confirmation.</p>
-<h2 id="client-profile">Client Profile</h2>
-<p>Client profiles are used for the management of clients within the portal system. Here, clients are defined as individuals that interact with programs. This differs from portal users, who will log into an account for the management of client submissions. Clients create and submit applications through the portal. </p>
-<p>To create a new client user, follow the steps below.
-1.  Navigate to Client Profiles. 
-2.  Click the Add New (+) icon. 
-3.  Complete the dialog by filling out information for profile type and name.</p>
-<p>To create a profile type, follow the steps below.</p>
-<p>To edit a client user, follow the steps below.</p>
-<p>To delete a client user, follow the steps below.</p>
-<p>There are various roles associated to clients. By default, a user will have an administrator role for their clients. [^1] This can be changed using the client user page. Available roles include administrator, contributor, and read-only. As an administrator, a user can read and edit client information as well as start, edit, and submit applications on behalf of clients. As a contributor, a user can read client information as well as start, edit, and submit applications on behalf of the client. They are unable to edit client information. A read-only user will only be able to view the profiles of their clients. They are unable to edit client information and cannot start, edit, or submit client applications.</p>
-<p>[^1]: It is important to note that an administrator is different to an administrative user. Administrators have full access to administrative tools found within Ralph, such as the form manager.</p>
-<h2 id="service-amendments">Service Amendments</h2>
-<h1 id="tenant-manager">Tenant Manager</h1>
-<h2 id="multiple-tenants">Multiple Tenants</h2>
-<h2 id="adaptor">Adaptor</h2>
-<h2 id="customizing-intake-portal">Customizing Intake Portal</h2>
-<h2 id="saas">SaaS</h2>
-<h1 id="form-manager">Form Manager</h1>
-<h2 id="orbeon-overview">Orbeon Overview</h2>
-<p>Forms are generated using Orbeon Forms, which is a web-based application that provides a platform for easily designing forms. This solution can handle the building and deployment of large web forms with complex validation, making it a very useful tool for enterprises and governmental organizations. </p>
-<p>Administrators have access to use this solution to generate forms directly from the Ralph portal in a browser. This tool uses a WYSIWYG editor style, where the administrator is able to immediately see how the form looks as it is being built. All forms built through Orbeon are accessible via desktop and laptop computers, as well as mobile devices.</p>
-<p>•   Validation, visibility, calculations, and branching – Define validation rules; Specify errors, warnings, and alert messages to be displayed; Define visible and editable fields; Automatically calculate and populate values <br />
-•   Repeating sections and tables – Groups of fields can be repeated; Set a minimum and maximum number of items allowed; Reorder items for convenience
-•   Encryption – Select encryptions for specific fields in database; Comply with various data protection and privacy regulations
-•   Actions and services – Specify HHTP and database service endpoints
-•   PDF generation – Generate PDF files with data entered by users; Based on layout of web form or from a template
-•   Multi-page forms – Navigation between form pages so users are not overwhelmed by large forms; See errors associated to given form pages and easily navigate to the appropriate page</p>
-<h2 id="create-edit-configure-and-activate-forms">Create, Edit, Configure, and Activate Forms</h2>
-<p>There are various types of forms to be created within the Ralph portal. Such forms are listed and further described below. </p>
-<p>•   Application – For the submission of grants or programs
-•   Assessment – Reviews, checklists, evaluations, and other assessments for a grant or program
-•   Claim – Funding recipient to request payment at various times throughout the life cycle of the project
-•   Profile – For information about a client’s name, number, description, status, and associated actions
-•   Reviewer Profile – For information about a reviewer
-•   Survey – </p>
-<p>For users to complete and submit forms, there must first be forms available for them to access. These are to be created by administrative-level users working with the various form types. Administrators must navigate to the Forms section, where an initial dropdown menu option is selected. The user will proceed to the View section. Here, the available types of forms as well as existing forms will be listed. </p>
-<p>To create a new form, under the Forms grid, select the Add New button as denoted by the “+” sign. This will prompt for required information, such as the form’s code, type, and initial form version name. Once the form has been initially generated, there is another Add New button located under the form name. Use this to create a new version of a form. It is possible to base the new form off a previous version by selecting to copy contents of an existing form and then adding the required changes. </p>
-<p>Every version is stored under its parent form, as shown above when expanding the parent form. Additional form information is also displayed, such as the form’s version, name, status, activation version, created on date, and last modified on date. From here it is possible to edit, configure, activate, and view the forms. These are denoted by icons to the right of the form version and discussed in upcoming subsections.</p>
-<p>From the Orbeon form creator, it is possible to create a form from scratch or edit an existing form. The side panel provides all the tools and functionalities available to create and edit a form. The following features are found in the side panel.
-1.  Cut, copy, and paste
-2.  Undo/redo insert control
-3.  Form settings – Options for general settings that apply to the entire form definition (application name, form name, form title, and description), form options (maximum attachment size, allowed file types, appearance of control labels and hints, and automatic calculation dependencies), control settings (number, currency, date, and time), wizard options (views, navigation validation, subsection navigation, and subsection table of contents), and about this form (versions and form statistics)</p>
-<h2 id="form-controls">Form Controls</h2>
-<h2 id="data-mapping-and-sync-to-crm">Data Mapping and Sync to CRM</h2>
-<h2 id="auto-numbering">Auto-numbering</h2>
-<p>The Ralph portal has the option for automatic program numbering associated with given schemas, such as case files, submissions, and accounts. Each of these schemas will be associated with a given competition. It is possible to customize the naming conventions for the automatic numbering system as shown below.</p>
-<ol>
-<li>Navigate to Forms. Select Tools from the dropdown menu and then select Auto Numbering.</li>
-<li>Select the program to be customized. </li>
-<li>Click Edit, as denoted by the pencil icon to the right of the selected program. This will display a dialog window.</li>
-<li>Ensure that the program details are correct by verifying the program and schema name. It is possible to change these values by selecting other options from the respective dropdown menu. </li>
-<li>Fill out the following information as desired:
-•   Current Number
-•   Prefix
-•   Separator
-•   Pad with Zero
-•   Extension Enabled (this checkbox will allow for additional parameters to be defined including prefix, separator, pad with zero, and value)</li>
-<li>Click Save. </li>
-</ol>
-<h2 id="translation-management">Translation Management</h2>
-<p>As with an IIPS, Ralph uses a translation manager to toggle a form’s language between English and French. This is done following a specific protocol to ensure the feature’s functionality.</p>
-<p>When a field is created on a form, click the control setting icon. Once in the “Settings” screen, go to the “Label” tab. The label should be formatted to have a “_” value in front of the label name for French translations. This is the display key for translations.  Click “Apply” to have the setting be saved. This is shown below. </p>
-<p>A list of all in-use translations is found under the Orbeon configurator. The available translation keys are displayed in a grid containing both the English and French translations. From here, translations can be edited and deleted by navigating to the appropriate icon.</p>
-<h2 id="user-management">User Management</h2>
-<p>Administrator accounts can log into the Intake+ Forms Manager to access portal user information. Here, it is possible to change and reset passwords. This is shown below.</p>
-<ol>
-<li>Navigate to Portal Users.</li>
-<li>Select the profile to be changed. Click the edit icon to the right of the user, as denoted by a key.</li>
-<li>Enter and confirm a new password in the dialog box.</li>
-<li>Click Save.
-A user can be disabled for various reasons. This should only be done when the user is no longer required or permitted to access the Ralph portal. Follow the steps below to disable a user.</li>
-<li>Navigate to Portal Users.</li>
-<li>Select the profile to be changed. Click the disable icon to the right of the user, as denoted by a circle containing an “x”.</li>
-<li>Confirm the disabling of the selected user by selecting OK in the popup dialog window. A ribbon will be displayed at the bottom of the page confirming the user is no longer enabled. The user will remain as listed in the portal grid but will not have a checkmark under the enabled column. </li>
-<li>If a disabled user attempts to log in, the ribbon will be displayed stating “Failed to sign in. The account is currently locked out.”.</li>
-</ol>
-<h1 id="reviewer-manager">Reviewer Manager</h1>
-<h2 id="registration">Registration</h2>
-<h2 id="profile">Profile</h2>
-<h1 id="troubleshooting">Troubleshooting</h1>
+                <h1 id="welcome-to-stackedit">Welcome to StackEdit!</h1>
+<p>Hi! I'm your first Markdown file in <strong>StackEdit</strong>. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the <strong>file explorer</strong> on the left corner of the navigation bar.</p>
+<h1 id="files">Files</h1>
+<p>StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible <strong>offline!</strong></p>
+<h2 id="create-files-and-folders">Create files and folders</h2>
+<p>The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the <strong>New file</strong> button in the file explorer. You can also create folders by clicking the <strong>New folder</strong> button.</p>
+<h3 id="test-sub">test sub</h3>
+<p>asdfsdfsdfsfssfsdffsd</p>
+<h2 id="switch-to-another-file">Switch to another file</h2>
+<p>All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.</p>
+<h2 id="rename-a-file">Rename a file</h2>
+<p>You can rename the current file by clicking the file name in the navigation bar or by clicking the <strong>Rename</strong> button in the file explorer.</p>
+<h2 id="delete-a-file">Delete a file</h2>
+<p>You can delete the current file by clicking the <strong>Remove</strong> button in the file explorer. The file will be moved into the <strong>Trash</strong> folder and automatically deleted after 7 days of inactivity.</p>
+<h2 id="export-a-file">Export a file</h2>
+<p>You can export the current file by clicking <strong>Export to disk</strong> in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.</p>
+<h1 id="synchronization">Synchronization</h1>
+<p>Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your <strong>Google Drive</strong>, your <strong>Dropbox</strong> and your <strong>GitHub</strong> accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.</p>
+<p>There are two types of synchronization and they can complement each other:</p>
+<ul>
+<li>
+<p>The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
+    &gt; To start syncing your workspace, just sign in with Google in the menu.</p>
+</li>
+<li>
+<p>The file synchronization will keep one file of the workspace synced with one or multiple files in <strong>Google Drive</strong>, <strong>Dropbox</strong> or <strong>GitHub</strong>.
+    &gt; Before starting to sync files, you must link an account in the <strong>Synchronize</strong> sub-menu.</p>
+</li>
+</ul>
+<h2 id="open-a-file">Open a file</h2>
+<p>You can open a file from <strong>Google Drive</strong>, <strong>Dropbox</strong> or <strong>GitHub</strong> by opening the <strong>Synchronize</strong> sub-menu and clicking <strong>Open from</strong>. Once opened in the workspace, any modification in the file will be automatically synced.</p>
+<h2 id="save-a-file">Save a file</h2>
+<p>You can save any file of the workspace to <strong>Google Drive</strong>, <strong>Dropbox</strong> or <strong>GitHub</strong> by opening the <strong>Synchronize</strong> sub-menu and clicking <strong>Save on</strong>. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.</p>
+<h2 id="synchronize-a-file">Synchronize a file</h2>
+<p>Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.</p>
+<p>If you just have modified your file and you want to force syncing, click the <strong>Synchronize now</strong> button in the navigation bar.</p>
+<blockquote>
+<p><strong>Note:</strong> The <strong>Synchronize now</strong> button is disabled if you have no file to synchronize.</p>
+</blockquote>
+<h2 id="manage-file-synchronization">Manage file synchronization</h2>
+<p>Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking <strong>File synchronization</strong> in the <strong>Synchronize</strong> sub-menu. This allows you to list and remove synchronized locations that are linked to your file.</p>
+<h1 id="publication">Publication</h1>
+<p>Publishing in StackEdit makes it simple for you to publish online your files. Once you're happy with a file, you can publish it to different hosting platforms like <strong>Blogger</strong>, <strong>Dropbox</strong>, <strong>Gist</strong>, <strong>GitHub</strong>, <strong>Google Drive</strong>, <strong>WordPress</strong> and <strong>Zendesk</strong>. With <a href="http://handlebarsjs.com/">Handlebars templates</a>, you have full control over what you export.</p>
+<blockquote>
+<p>Before starting to publish, you must link an account in the <strong>Publish</strong> sub-menu.</p>
+</blockquote>
+<h2 id="publish-a-file">Publish a File</h2>
+<p>You can publish your file by opening the <strong>Publish</strong> sub-menu and by clicking <strong>Publish to</strong>. For some locations, you can choose between the following formats:</p>
+<ul>
+<li>Markdown: publish the Markdown text on a website that can interpret it (<strong>GitHub</strong> for instance),</li>
+<li>HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).</li>
+</ul>
+<h2 id="update-a-publication">Update a publication</h2>
+<p>After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the <strong>Publish now</strong> button in the navigation bar.</p>
+<blockquote>
+<p><strong>Note:</strong> The <strong>Publish now</strong> button is disabled if your file has not been published yet.</p>
+</blockquote>
+<h2 id="manage-file-publication">Manage file publication</h2>
+<p>Since one file can be published to multiple locations, you can list and manage publish locations by clicking <strong>File publication</strong> in the <strong>Publish</strong> sub-menu. This allows you to list and remove publication locations that are linked to your file.</p>
+<h1 id="markdown-extensions">Markdown extensions</h1>
+<p>StackEdit extends the standard Markdown syntax by adding extra <strong>Markdown extensions</strong>, providing you with some nice features.</p>
+<blockquote>
+<p><strong>ProTip:</strong> You can disable any <strong>Markdown extension</strong> in the <strong>File properties</strong> dialog.</p>
+</blockquote>
+<h2 id="smartypants">SmartyPants</h2>
+<p>SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>ASCII</th>
+<th>HTML</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Single backticks</td>
+<td><code>'Isn't this fun?'</code></td>
+<td>'Isn't this fun?'</td>
+</tr>
+<tr>
+<td>Quotes</td>
+<td><code>"Isn't this fun?"</code></td>
+<td>"Isn't this fun?"</td>
+</tr>
+<tr>
+<td>Dashes</td>
+<td><code>-- is en-dash, --- is em-dash</code></td>
+<td>-- is en-dash, --- is em-dash</td>
+</tr>
+</tbody>
+</table>
+<h2 id="katex">KaTeX</h2>
+<p>You can render LaTeX mathematical expressions using <a href="https://khan.github.io/KaTeX/">KaTeX</a>:</p>
+<p>The <em>Gamma function</em> satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral</p>
+<p>$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$</p>
+<blockquote>
+<p>You can find more information about <strong>LaTeX</strong> mathematical expressions <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference">here</a>.</p>
+</blockquote>
+<h2 id="uml-diagrams">UML diagrams</h2>
+<p>You can render UML diagrams using <a href="https://mermaidjs.github.io/">Mermaid</a>. For example, this will produce a sequence diagram:</p>
+<pre><code class="mermaid">sequenceDiagram
+Alice -&gt;&gt; Bob: Hello Bob, how are you?
+Bob--&gt;&gt;John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long&lt;br/&gt;long time, so long&lt;br/&gt;that the text does&lt;br/&gt;not fit on a row.
+
+Bob--&gt;Alice: Checking with John...
+Alice-&gt;John: Yes... John, how are you?
+</code></pre>
+
+<p>And this will produce a flow chart:</p>
+<pre><code class="mermaid">graph LR
+A[Square Rect] -- Link text --&gt; B((Circle))
+A --&gt; C(Round Rect)
+B --&gt; D{Rhombus}
+C --&gt; D
+</code></pre>
               
             </div>
           </div>
