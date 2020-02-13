@@ -1,6 +1,0 @@
-site_name: Eperformance Intake+ 
-nav:
- - Home: index.md
- - About: about.md
- - Ralph: ralph.md    
-theme: readthedocs
