@@ -1,5 +1,5 @@
 # Intake Portal
-The Intake Portal offers a streamlined area for the submission of applications. Users are initially brought to the landing page, where they are able to begin the submission process.
+The Intake Portal offers a streamlined area for the submission of applications. Users are initially brought to the landing page, where they are able to begin the submission process. 
 
 ## Registration and Login
 Once a user has navigated to the landing page for the Intake+ portal, there is an option for them to sign in if they have previously registered or register as a new user. If previously registered, users will be able to enter their login information to access available forms and profile information. 
